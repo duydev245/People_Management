@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, p, div, table, td, th, input, select, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  main {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h2 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  div {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  .data {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #gender {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn_custom {
+    text-align: center;
+  }
+  
+  .submit_b {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit_b:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
